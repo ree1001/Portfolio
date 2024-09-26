@@ -1,0 +1,302 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+header{
+    background-color: #FFF8F3;
+    margin-left: 30px;
+    padding: 90px 0; 
+    padding-top: 5px;
+
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color:#FFF8F3;
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 60px;
+}
+.nav{
+    flex-grow: 1;
+}
+.nav h1 {
+    color: black;
+    font-size: 1.8em;
+}
+
+.nav span {
+    color: red;
+}
+.nav-items ul {
+    list-style-type: none;
+    display: flex; 
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.nav-items ul li {
+    margin-left: 20px;
+}
+
+.nav-items ul li a {
+    color: lightslategray;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-align: justify;
+}
+.btn>button{
+    background-color:orangered;
+    color: #f4f4f4;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.about h5{
+    color: gray;
+    font-size: 25px;
+    margin-bottom: 20px;
+    gap:none;
+    margin-left: 70px;
+
+}
+.about h1{
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        margin-left: 70px;
+        color: #333;
+}
+.about p{
+    font-size: 16px;
+    color: darkgrey;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+
+}
+.bit{
+    color: #f4f4f4;
+    background-color: orangered;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 70px;
+}
+.con{
+    background-color: #f4f4f4;
+    color: orangered;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: 1px solid orangered;
+}
+
+
+
+
+.about-me {
+    background-color: #FFF8F3;
+    margin: 0 90px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.box {
+    width: 650px;
+    height: auto;
+    margin: 60px auto;
+    margin-bottom: 60px;
+    padding: 60px;
+    color: #333;
+    background-color:#FFF8F3;
+    border-radius: 15px;
+}
+.me {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.para {
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.info li {
+    font-size: 16px;
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    width: 100%;
+}
+
+.info li strong {
+    margin-left: 5px;
+    color: black;
+    font-weight: bold;
+}
+.do{
+    text-decoration: none;
+    text-align: center;
+    padding: 30px;
+}
+
+.do p{
+    font-size: 16px;
+    color: darkgray;
+    line-height: 1.5rem;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+    padding: 0 100px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cv{
+        text-align: center;
+        font-weight: 700;
+        font-size: 35px;
+        margin-bottom: 50px;
+        margin-top: 100px;
+
+    }
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+
+.cv-button{
+    margin-top: 50px;
+    text-align: center;
+    
+    
+}
+.contact{
+    margin-top: 50px;
+    display: flex;
+    row-gap: 100px;
+    padding: 130px 200px;
+    background-color:#FFF8F3;
+
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-bottom: 50px;
+}
+.contact .section-title{
+    text-align: left;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 64px;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #ff5733; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.image {
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    margin-top:10px;
+    right: 0;
+    height: auto;
+    z-index: 1;
+}
+.image1 {
+    height: 317px;
+    width: 450px;
+    position: absolute;
+    margin-top: 140px;
+    right: 0;
+    height: auto;
+    z-index: 1;
+    opacity: 0.8; 
+}
+.image2 {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 250; 
+    height: 450px;
+    z-index: 0;
+    object-fit: cover; 
+}
